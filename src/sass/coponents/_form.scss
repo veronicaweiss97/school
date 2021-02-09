@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    .label {
+        color: white;
+        font-size: 44px;
+        width: 100%;
+    }
+    .input {
+        height: 2rem;
+        width: 25rem;
+        border-radius: 33px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        background: #fff;
+        padding: 10px;
+    }
+}
+.submit {
+    border: 3px solid white;
+    border-radius: 33px;
+    background: transparent;
+    height: 3rem;
+    width: 25rem;
+    margin-top: 3rem;
+    font-size: 30px;
+    color: white;
+    font-family: 'Waiting for the Sunrise', cursive;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    &:hover {
+        box-shadow: 9px 13px 7px 4px rgba(0, 0, 0, 0.25);
+    }
+}
