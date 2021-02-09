@@ -164,12 +164,6 @@
   margin-bottom: 7rem;
 }
 
-.schedule__title {
-  color: white;
-  font-size: 50px;
-  text-align: center;
-}
-
 .schedule .grades {
   color: white;
   font-size: 25px;
@@ -179,6 +173,30 @@
   color: white;
   font-size: 20px;
   padding: 1rem;
+}
+
+.gallery {
+  margin-bottom: 7rem;
+}
+
+.gallery__photos .slide {
+  width: 90%;
+}
+
+.gallery__photos .slide img {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 90%;
+}
+
+.gallery .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body {
@@ -198,5 +216,11 @@ body {
   width: 80%;
   height: 100%;
   margin: 0 auto;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
